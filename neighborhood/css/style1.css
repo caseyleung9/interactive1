@@ -1,4 +1,74 @@
 
 body {
-  background: yellow;
+  background:#587E20;
+  -webkit-font-smoothing: antialiased;
+  /* The above is called a hex code.
+     There are two other ways to do colors in CSS: rgb and common names
+     Find "Digital Color Meter" on your computer to explore more */
+  color: white;
+  font-size: 16px;
+
+
+
+    #container {
+      max-width: 650px;
+      /* I put "max-width" rather than "width" because
+         if the screen width is less than 650px, it will shrink accordingly. */
+      margin: 0 auto;
+
+      img {
+      max-width: 100%;
+      }
+
+    }
+
+    body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+
+    #toc {
+    position: fixed;
+    top: 1em;
+    left: 1em;
+  /* When you make something position: fixed,
+     you need to tell it where to be fixed to.
+     This means it will be 1em (22px) away from both the top and the left sides.
+     You could also use "bottom" or "right" here. */
+}
+
+
+   a {
+       color: yellow;
+       text-decoration: none;
+       /* By default, links are blue and have an underline.
+     The above CSS changes both those things. */
+    }
+
+    a:hover {
+  color: white;
+}
+
+
+  #toc a {
+  color: #587E20;
+  text-decoration: none;
+}
+
+  #toc a:hover {
+  color: black;
+}
+
+
+#toc a {
+  color: #587E20;
+  text-decoration: none;
+
+}
+
+
+#toc ul {
+  padding: 0;
+  list-style-type: none;
+  /* you could also change the type of bullet with the above declaration! */
 }
