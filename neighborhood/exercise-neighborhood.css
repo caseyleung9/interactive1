@@ -3,7 +3,11 @@ body{
   color: white;
   font-size: 16px;
 
+
   h1{
     font-family: 'Unlock', cursive;
   }
+
+  .toctype:
+  font-family: 'Megrim', cursive;
 }
