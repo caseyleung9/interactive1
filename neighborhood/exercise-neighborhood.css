@@ -2,12 +2,13 @@ body{
   background:grey
   color: white;
   font-size: 16px;
+}
 
 
   h1{
     font-family: 'Unlock', cursive;
   }
 
-  .toctype:
+  .toctype:{
   font-family: 'Megrim', cursive;
 }
