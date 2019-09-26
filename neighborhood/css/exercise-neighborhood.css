@@ -1,0 +1,35 @@
+.heroimage{
+  width: 50%;
+  height: 50%;
+}
+
+#title {
+   font-family:'Mansalva', cursive;
+   font-size: 20px;
+ }
+
+
+body{
+  background:white;
+  color:grey;
+  margin: 5em;
+  word-spacing: normal;
+  border: 0px;
+  text-align: center;
+  word-spacing: normal;
+  line-length: 20px;
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 16px;
+}
+
+
+img{
+  width: 60%;
+}
+
+
+  .toctype {
+  font-family:'Unica One', cursive;
+  font-size: 30px;
+  color:grey;
+}
