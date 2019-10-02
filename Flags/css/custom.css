@@ -1,0 +1,216 @@
+/* reset styles */
+* {
+        margin: 0px; padding: 0px;
+}
+
+/* make the background of the page black */
+body {
+        background: black;
+}
+
+/* flag canvas */
+#canvas {
+        width: 500px;
+        height: 300px;
+        position: relative;
+        background:#8db800;
+}
+
+/* shapes */
+.square1 {
+        width: 100px;
+        height: 100px;
+        background: white;
+
+
+  /* position the square1 in the center of the flag */
+        position: absolute;
+        top: 125px;
+        left: 180px;
+}
+
+.square2 {
+        width: 100px;
+        height: 100px;
+        outline-style: solid;
+        outline-color: white;
+
+
+  /* position the square2 in the center of the flag */
+        position: absolute;
+        top: 100px;
+        left: 200px;
+}
+
+.square3 {
+        width: 100px;
+        height: 100px;
+        outline-style: solid;
+        outline-color: white;
+
+
+  /* position the square2 in the center of the flag */
+        position: absolute;
+        top: 75px;
+        left: 220px;
+      }
+
+.square4 {
+          width: 50px;
+          height: 50px;
+          background:#8db800;
+
+    /* position the square1 in the center of the flag */
+          position: absolute;
+          top: 175px;
+          left: 205px;
+      }
+
+.rectangle{
+          width:150px;
+          height:10px;
+          background:white;
+    /* position the square1 in the center of the flag */
+          position: absolute;
+          top: 230px;
+          left:160px;
+
+}
+
+/* animation of square1*/
+.animation-square1 {
+  -webkit-animation-name: square1; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: .8s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+  -webkit-animation-timing-function: ease-in-out;
+  animation-name: square1;
+  animation-duration: .8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes square1 {
+  0% {
+    transform: scale(0.9);
+      }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Standard syntax */
+@keyframes square1 {
+  0% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+/* animation of square2*/
+.animation-square2 {
+  -webkit-animation-name: square2; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: .8s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+  -webkit-animation-timing-function: ease-in-out;
+  animation-name: square2;
+  animation-duration: .8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes square2 {
+  0% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Standard syntax */
+@keyframes square2 {
+  0% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+/* animation of square3*/
+.animation-square3 {
+  -webkit-animation-name: square3; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: .8s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+  -webkit-animation-timing-function: ease-in-out;
+  animation-name: square3;
+  animation-duration: .8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes square3 {
+  0% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Standard syntax */
+@keyframes square3 {
+  0% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* animation of square4*/
+.animation-square4 {
+  -webkit-animation-name: square4; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: .8s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+  -webkit-animation-timing-function: ease-in-out;
+  animation-name: square4;
+  animation-duration: .8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes square4 {
+  0% {
+    transform: scale(0.9);
+      }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Standard syntax */
+@keyframes square4 {
+  0% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

@@ -1,17 +1,38 @@
+/* reset styles */
+* {
+        margin: 80px 80px 80px 80px;
+
+}
+
 .heroimage{
-  width: 50%;
-  height: 50%;
+  width: 400%;
+  height: 400%;
+  color: white;
 }
 
 #title {
-   font-family:'Mansalva', cursive;
+   top: 100px;
+   font-family: 'Turret Road', cursive;
    font-size: 20px;
  }
 
+ .row {
+   display: flex;
+ }
+
+ .column {
+   flex: 100%;
+ }
 
 body{
-  background:white;
-  color:grey;
+
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  background:black;
+  color:white;
   margin: 5em;
   word-spacing: normal;
   border: 0px;

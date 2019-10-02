@@ -1,0 +1,61 @@
+
+/* reset styles */
+* {
+        margin: 0px; padding: 0px;
+}
+
+/* make the background of the page black */
+body {
+        background:white;
+}
+#canvas {
+        width: 800px;
+        height: 600px;
+        position: relative;
+        background:black;
+}
+
+.hk{
+        width: 300px;
+        height: 300px;
+
+    /* position the square1 in the center of the flag */
+        position: absolute;
+        top: 100px;
+        left:160px;
+  }
+
+.sf{
+        width: 400px;
+        height: 100px;
+
+      /* position the square1 in the center of the flag */
+        position: absolute;
+        top: 230px;
+        left:210px;
+  }
+
+  .animation-hk {
+    -webkit-animation-name: hk; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1.50s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+    -webkit-animation-timing-function: ease-in-out;
+    animation-name: hk;
+    animation-duration: 1.50s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+  }
+
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes hk {
+    0% { transform: rotate(0); }
+    100% { transform: rotate(180deg); }
+  }
+
+  /* Standard syntax */
+  @keyframes hk {
+    0% { transform: rotate(0); }
+    100% { transform: rotate(180deg); }
+  }
