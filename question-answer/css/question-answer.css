@@ -1,0 +1,49 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background: #f5b027;
+  font-size: 100px;
+}
+#question{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: #a37312;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Finger Paint', cursive;
+
+}
+#answer {
+  display: none;
+  font-family: 'Knewave', cursive;
+  background: url(assets/Chocolate-Splash-PNG-Free-Download.png) no-repeat;
+
+}
+/* hidden message */
+@media (max-width: 1024px) {
+  body {
+   background:#f5b027;
+  }
+  #answer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Knewave', cursive;
+    background: url(assets/Chocolate-Splash-PNG-Free-Download.png) no-repeat;
+  }
+
+  #question {
+    display: none;
+    font-family: 'Finger Paint', cursive;
+  }
+}
