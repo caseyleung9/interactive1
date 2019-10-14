@@ -1,56 +1,105 @@
 /* reset styles */
-* {
-        margin: 80px 80px 80px 80px;
+* {margin: 0px 50px 50px 50px}
 
+body{
+  background:black;
+  color: white;
+  position: absolute;
 }
 
-.heroimage{
-  width: 400%;
-  height: 400%;
-  color: white;
+heroimage{
+  width: 75%;
+  height: 75%;
+  float: left;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 #title {
-   top: 100px;
-   font-family: 'Turret Road', cursive;
-   font-size: 20px;
+   font-family: 'Lexend Peta', sans-serif;
+   top: 500px;
+   font-size: 40px;
+   text-align: center;
+   position: absolute;
+   top: 3%;
+   left: 45%;
+   line-height: 2.3em;
+   height: 5em;
+
  }
 
- .row {
-   display: flex;
- }
+/* Style the tab buttons */
+.tablink {
+  text-align: inherit;
+  font-family: 'Special Elite', cursive;
+  background-color: black;
+  color: white;
+  float: left;
+  margin: 0px 20px 20px 100px;
+  display: inline;
+  padding:4px 4px 4px 4px;
+  font-size: 20px;
+  position: sticky;
+  top: 10px;
+}
 
- .column {
-   flex: 100%;
- }
+/* Change background color of buttons on hover */
+.tablink:hover {
+  background-color:white;
+  color:black;
+}
 
-body{
-
-  margin: 0;
-  padding: 0;
-  border: 0;
-  vertical-align: baseline;
-  box-sizing: border-box;
-  background:black;
-  color:white;
-  margin: 5em;
-  word-spacing: normal;
-  border: 0px;
-  text-align: center;
-  word-spacing: normal;
-  line-length: 20px;
-  font-family: 'Allerta Stencil', sans-serif;
-  font-size: 16px;
+.tabcontent{
+  font-size: 300px
+  position: absolute;
+  top:40px;
 }
 
 
 img{
   width: 60%;
+  height: 60%;
+  margin-top: 50px;
+}
+
+h3{
+  font-family: 'Sonsie One', cursive;
+  font-size: 40px;
+  margin-top:100px;
+}
+
+h4{
+  font-family: 'Sonsie One', cursive;
+  font-size: 40px;
+  margin-top:100px;
+}
+h5{
+  font-family: 'Sonsie One', cursive;
+  font-size: 40px;
+  margin-top:100px;
+}
+h6{
+  font-family: 'Sonsie One', cursive;
+  font-size: 40px;
+  margin-top:100px;
+}
+
+h7{
+  font-family: 'Sonsie One', cursive;
+  font-size: 40px;
+  margin-top:100px;
 }
 
 
-  .toctype {
-  font-family:'Unica One', cursive;
-  font-size: 30px;
-  color:grey;
+p{
+  font-family: 'Heebo', sans-serif;
+  font-size: 15px;
+}
+
+address{
+  font-style: italic;
+  font-family: 'Heebo', sans-serif;
+  font-size: 13px;
 }

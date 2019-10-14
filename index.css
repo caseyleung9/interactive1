@@ -1,0 +1,27 @@
+* {
+    margin: 20px 20px 20px 20px;
+    background-color: #6e8238;
+    color: white;
+
+
+}
+
+h1{
+  font-size:50px;
+  float:left;
+  font-family: 'Libre Barcode 39 Text', cursive;
+
+}
+
+h2{
+  font-family: 'Stardos Stencil', cursive;
+  font-style:bold;
+  font-size:30px;
+  margin:100px;
+}
+
+ h3{
+  font-family: 'Stardos Stencil', cursive;
+  margin-top:20px;
+  font-size: 20px;
+ }
