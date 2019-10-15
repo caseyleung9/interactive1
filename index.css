@@ -15,13 +15,38 @@ h1{
 
 h2{
   font-family: 'Stardos Stencil', cursive;
-  font-style:bold;
-  font-size:30px;
+  margin-top:0px;
+  font-size:20px;
   margin:100px;
 }
 
  h3{
   font-family: 'Stardos Stencil', cursive;
-  margin-top:20px;
+  margin-top:0px;
   font-size: 20px;
  }
+
+ h4{
+  font-family: 'Stardos Stencil', cursive;
+  margin-top:0px;
+  font-size: 20px;
+ }
+
+h5{
+  font-family: 'Stardos Stencil', cursive;
+  margin-top:0px;
+  font-size: 20px;
+}
+
+#exercises{
+  font-family: 'Exo', sans-serif;
+}
+
+
+#weekly-exercises{
+  font-family: 'Exo', sans-serif;
+}
+
+#projects{
+  font-family: 'Exo', sans-serif;
+}
