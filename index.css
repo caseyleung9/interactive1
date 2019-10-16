@@ -40,13 +40,19 @@ font-family: 'Special Elite', cursive;
 
 #exercises{
 font-family: 'Open Sans Condensed', sans-serif;
+font-size: 15px;
 }
 
 
 #weekly-exercises{
 font-family: 'Open Sans Condensed', sans-serif;
+font-size: 15px;
+}
+
 }
 
 #projects{
     font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+
 }
