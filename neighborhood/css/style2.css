@@ -1,0 +1,185 @@
+body {
+    background: white;
+    color: black;
+    font-family: 'AkkuratPro-Regular', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+}
+
+/* @media (min-width: 768px)
+body {
+    letter-spacing: 0px;
+} */
+/*
+body {
+*, *:after, *:before {
+    box-sizing: inherit;
+} */
+/*
+body {
+    display: block;
+} */
+
+
+.pindell_papers {
+    background-color: black;
+    color: white;
+    padding-bottom: 4em;
+    float: left;
+    * {margin: 0px 50px 50px 50px}}
+
+    /* body{
+      background:black;
+      color: white;
+      justify-content: center;
+      -webkit-font-smoothing: antialiased;
+    } */
+
+    #heroimage{
+      width: 22.5%;
+      height: 22.5%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+
+    #title {
+       font-family: 'Lexend Peta', sans-serif;
+       /* top: 200px; */
+       font-size: 25px;
+       text-align:left;
+       position: absolute;
+       left: 22.5%;
+       line-height: 1.25em;
+       height: 2.5em;
+       margin-top:25px;
+       top:1%;
+
+     }
+
+    /* Style the tab buttons */
+    .toctype{
+      /* background-color: black; */
+      color: white;
+      font-family: 'Special Elite', cursive;
+      position: sticky;
+      top: 5px;
+    }
+
+    button.tablink{
+      button: 5px 5px 5px 5px;
+      vertical-align: baseline;
+      box-sizing: border-box;
+      padding: 0.5px 0.5px 0.5px 0.5px;
+      margin: 5px 2.5px 5px 2.5px;
+      font-family: 'Special Elite', cursive;
+      background-color: black;
+      color: white;
+      padding:1px 1px 1px 1px;
+      font-size: 10px;
+      margin-top: 10px;
+
+
+    }
+    /* Change background color of buttons on hover */
+    .tablink:hover {
+      background-color:white;
+      color:black;
+    }
+
+
+
+
+    img{
+      width: 28.5%;
+      height: 28.5%;
+      margin: 0px 10px 10px 10px;
+      justify-content: center;
+
+    }
+
+
+
+    h2{
+      font-family: 'Sonsie One', cursive;
+      font-size: 20px;
+      margin-top: 50px;
+      float: right;
+      margin-right: 200px;
+    }
+
+    #sheungwan{
+      margin-left: 200px;
+
+    }
+
+    h3{
+      font-family: 'Sonsie One', cursive;
+      font-size: 20px;
+      margin-top:50px;
+      float: right;
+      margin-right: 200px;
+    }
+
+    #causewaybay{
+        margin-left: 200px;
+    }
+
+
+    h4{
+      font-family: 'Sonsie One', cursive;
+      font-size: 20px;
+      margin-top: 50px;
+      float: right;
+      margin-right: 200px;
+    }
+
+    #taio{
+      margin-top: 100px;
+        margin-left: 200px;
+    }
+
+
+    h5{
+      font-family: 'Sonsie One', cursive;
+      font-size: 20px;
+      margin-top:50px;
+      float: right;
+      margin-right: 200px;
+    }
+
+    #mongkok{
+      margin-top:100px;
+      margin-left: 200px;
+    }
+
+    h6{
+      font-family: 'Sonsie One', cursive;
+      font-size: 20px;
+      margin-top:50px;
+      float: right;
+      margin-right: 200px;
+    }
+
+    #shamshuipo{
+        margin-left: 200px;
+    }
+
+
+
+    p{
+      font-family: 'Heebo', sans-serif;
+      font-size: 7.5px;
+      position:absolute;
+    }
+
+    address{
+      font-style: italic;
+      font-family: 'Heebo', sans-serif;
+      font-size: 6.5px;
+      display: block;
+    }

@@ -5,6 +5,7 @@ body{
   background:black;
   color: white;
   justify-content: center;
+  -webkit-font-smoothing: antialiased;
 }
 
 #heroimage{
@@ -18,29 +19,47 @@ body{
 
 #title {
    font-family: 'Lexend Peta', sans-serif;
-   top: 500px;
-   font-size: 30px;
-   text-align: center;
+   /* top: 200px; */
+   font-size: 50px;
+   text-align:left;
    position: absolute;
-   top: 3%;
    left: 45%;
-   line-height: 2.3em;
+   line-height: 2.5em;
    height: 5em;
-   margin-top:200px;
+   margin-top:50px;
+   top:1%;
 
  }
 
 /* Style the tab buttons */
-/* tablink {
-  text-align: inherit;
+.toctype{
   background-color: black;
   color: white;
-
-  margin: 0px 20px 20px 100px;
-  display: inline;
+  font-family: 'Special Elite', cursive;
   position: sticky;
   top: 10px;
-} */
+}
+
+button.tablink{
+  button: 10px 10px 10px 10px;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  padding: 1px 1px 1px 1px;
+  margin: 10px 5px 10px 5px;
+  font-family: 'Special Elite', cursive;
+  background-color: black;
+  color: white;
+  padding:2px 2px 2px 2px;
+  font-size: 20px;
+  margin-top: 20px;
+
+
+}
+/* Change background color of buttons on hover */
+.tablink:hover {
+  background-color:white;
+  color:black;
+}
 
 
 
@@ -52,36 +71,50 @@ img{
   justify-content: center;
 }
 
-#sheung {
-  justify-content: center;
+
+
+h2{
+  font-family: 'Sonsie One', cursive;
+  font-size: 40px;
+  margin-top: 100px;
+  float: right;
+  bo
 }
 
 h3{
   font-family: 'Sonsie One', cursive;
   font-size: 40px;
-  margin-top:200px;
+  margin-top:100px;
+  float: right;
 }
-
 h4{
   font-family: 'Sonsie One', cursive;
   font-size: 40px;
   margin-top:100px;
+  float: right;
 }
+
+#taio{
+  margin-top: 200px;
+}
+
+
 h5{
   font-family: 'Sonsie One', cursive;
   font-size: 40px;
   margin-top:100px;
+  float: right;
 }
+
+#mongkok{
+  margin-top:200px;
+}
+
 h6{
   font-family: 'Sonsie One', cursive;
   font-size: 40px;
   margin-top:100px;
-}
-
-h7{
-  font-family: 'Sonsie One', cursive;
-  font-size: 40px;
-  margin-top:100px;
+  float: right;
 }
 
 
