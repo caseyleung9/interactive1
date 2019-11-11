@@ -1,0 +1,138 @@
+html {
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+body{
+background:#3D20ED;
+margin: 0;
+}
+
+img#CD {
+  width: 55%;
+  margin-top: 50px;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  overflow: scroll;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background:#3D20ED;
+}
+
+.overlay.show {
+  display: block;
+}
+
+div.x{
+  /* border-top: 50px solid transparent;
+  align-items: flex-end; */
+  color: white;
+  width: 137%;
+  font-family: 'Karla', sans-serif;
+}
+
+img.player{
+  top: 150px;
+  bottom: 50px;
+  left: 50px;
+  right: 50px;
+  width: 35%;
+}
+
+img.album{
+  top: 50px;
+  bottom: 50px;
+  left: 50px;
+  right: 50px;
+  width: 40%;
+  border-top: 100px solid transparent;
+  display: block;
+  margin: auto;
+}
+
+div.scroll{
+  text-align: center;
+  /* white-space: nowrap; */
+}
+
+div#a{
+ background-image: url("assets2/2000.jpg");
+ background-size: 130%;
+ margin-top: 120px ;
+ padding: 20px;
+}
+
+div#overlayA.overlay.show{
+    background-image: url("assets2/digitalbg.jpg");
+    background:#3D20ED;
+}
+
+div#b{
+ background-image: url("assets2/2004.jpg");
+ background-size: 130%;
+ margin-top: 120px;
+ padding: 20px;
+}
+
+div#c{
+ background-image: url("assets2/2005.jpg");
+ background-size: 140%;
+ margin-top: 120px;
+ padding: 20px;
+}
+
+div#d{
+ background-image: url("assets2/2008.jpg");
+ background-size: 140%;
+ margin-top: 120px;
+ padding: 20px;
+}
+
+div#e{
+ background-image: url("assets2/2010.jpg");
+ background-size: 150%;
+ margin-top: 120px;
+ padding: 20px;
+}
+
+div#f{
+ background-image: url("assets2/2016.jpg");
+ background-size: 150%;
+ margin-top: 120px;
+ padding: 20px;
+}
+/* .horizontal-scroll {
+  width:100vw;
+  height:100vh;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scroll-snap-type: x mandatory;
+}
+#a {
+  word-wrap:break-word;
+  scroll-snap-align: center;
+  width:100vw;
+  height:100vh;
+  display: inline-block;
+  float:left;
+}
+
+#b {
+  background-size:  contain;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  box-sizing: border-box;
+  background-position: center;
+  scroll-snap-align: center;
+  width:100%;
+  height:100vh;
+  display: inline-block;
+} */

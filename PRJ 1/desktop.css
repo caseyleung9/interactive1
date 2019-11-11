@@ -1,0 +1,155 @@
+body{
+background:#3D20ED;
+padding: 25px 25px;
+/* width: 100%;
+height: 100%;
+display: none;
+position: absolute;
+top: 0;
+left: 0; */
+}
+
+img {
+  width: 50%;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: white;
+}
+.overlay.show {
+  display: block;
+}
+
+#CD{
+  justify-content: center;
+  cubic-bezier(0.0, 0.0, 0.58, 1.0)
+}
+
+.tab{
+  font-family: 'Karla', sans-serif;
+  color:grey;
+  align-items:center;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+/* button.tablink{
+    button: 10px 10px 10px 10px;
+    vertical-align: baseline;
+    /* box-sizing: border-box; */
+    /* padding: 1px 1px 1px 1px; */
+    /* margin: 10px 5px 10px 5px; */
+    font-family: 'Karla', sans-serif;
+    color: grey;
+    /* padding:2px 2px 2px 2px; */
+    font-size: 50px;
+    /* margin-top: 20px; */
+} */
+
+#a {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+/* #a.show {
+  display: block;
+} */
+
+#b {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+/* #b.show {
+  display: block;
+} */
+
+#c {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+/* #c.show {
+  display: block;
+} */
+
+#d {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+/* #d.show {
+  display: block;
+} */
+
+#e {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+/* #e.show {
+  display: block;
+} */
+
+#f {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+/* #f.show {
+  display: block;
+} */
