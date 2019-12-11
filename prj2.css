@@ -1,0 +1,1146 @@
+body {
+  background-color: #333333;
+}
+
+/* .grid-container {
+  width:170px;
+  height: 170px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap:50px 50px;
+} */
+.letter {
+  position: relative;
+  margin: 5px;
+  overflow: hidden;
+  height: 250px;
+}
+
+/* @keyframes spin {
+    0% {
+      /*transform: scale(1);*/
+transform-origin: center center;
+transform: rotate(-360deg) scale(0.8);
+}
+
+50% {
+  /*transform: scale(1.1);*/
+  transform-origin: right left;
+  transform: rotate(-180deg) scale(2);
+}
+
+100% {
+  /*transform: scale(1);*/
+  transform-origin: center center;
+  transform: rotate(0) scale(0.8);
+}
+
+*/ #A, #B, #C, #D, #E, #F, #G, #H, #I, #J, #K, #L, #M, #N, #O, #P, #Q, #R, #S, #T, #U, #V, #W, #X, #Y, #Z {
+  width: 300px;
+}
+
+#specimenGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  justify-content: center;
+  padding: 5%;
+  grid-gap: 3%;
+}
+
+/* animation of half-circle  */
+.animation-rotate-a {
+  -webkit-animation-name: rotate;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: .8s;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: alternate;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-timing-function: ease-in-out;
+  animation-name: rotate;
+  animation-duration: .8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+
+
+
+@-webkit-keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Standard syntax */
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes rotateC {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+/* Standard syntax */
+@keyframes rotateC {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+@-webkit-keyframes rotateE {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(170deg);
+  }
+}
+
+/* Standard syntax */
+@keyframes rotateE {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(170deg);
+  }
+}
+
+@-webkit-keyframes rotateF {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(-180deg);
+  }
+}
+
+/* Standard syntax */
+@keyframes rotateF {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(-180deg);
+  }
+}
+
+@-webkit-keyframes rotateG {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(51deg);
+  }
+}
+
+/* Standard syntax */
+@keyframes rotateG {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(51deg);
+  }
+}
+
+@-webkit-keyframes rotateH {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(-33deg);
+  }
+}
+
+/* Standard syntax */
+@keyframes rotateH {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(-33deg);
+  }
+}
+
+@-webkit-keyframes rotateK {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(133deg);
+  }
+}
+
+/* Standard syntax */
+@keyframes rotateK {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(133deg);
+  }
+}
+
+@-webkit-keyframes rotateM {
+  0% {
+    transform: rotate(180deg);
+  }
+  50% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+/* Standard syntax */
+@keyframes rotateM {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(270deg);
+  }
+}
+
+@-webkit-keyframes rotateS {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(133deg);
+  }
+}
+
+/* Standard syntax */
+@keyframes rotateS {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(133deg);
+  }
+}
+
+@-webkit-keyframes rotateS2 {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(-177deg);
+  }
+}
+
+/* Standard syntax */
+@keyframes rotateS2 {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(-177deg);
+  }
+}
+@-webkit-keyframes rotateU {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(-177deg);
+  }
+}
+
+/* Standard syntax */
+@keyframes rotateU {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(-177deg);
+  }
+}
+
+@-webkit-keyframes rotateV {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(70deg);
+  }
+}
+
+/* Standard syntax */
+@keyframes rotateV {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(70deg);
+  }
+}
+
+@-webkit-keyframes rotateV2 {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(-70deg);
+  }
+}
+
+/* Standard syntax */
+@keyframes rotateV2 {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(-70deg);
+  }
+}
+
+.animation-translate {
+  -webkit-animation-name: translate;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1.6s;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-timing-function: linear;
+  animation-name: translate;
+  animation-duration: 1.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes translate {
+  0% {
+    transform: translate(0px, 0px);
+  }
+
+  25% {
+    transform: translate(0px, 60px);
+  }
+
+  50% {
+    transform: translate(60px, 60px);
+  }
+
+  75% {
+    transform: translate(60px, 0px);
+  }
+
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+/* Standard syntax */
+@keyframes translate {
+  0% {
+    transform: translate(0px, 0px);
+  }
+
+  25% {
+    transform: translate(0px, 60px);
+  }
+
+  50% {
+    transform: translate(60px, 60px);
+  }
+
+  75% {
+    transform: translate(60px, 0px);
+  }
+
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+/* A */
+.half-circle-a {
+  position: absolute;
+  left: 40px;
+  top: 110px;
+  transform: rotate(-835deg);
+  animation-name: rotate;
+  animation-duration: .9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  width: 50%;
+}
+
+.rectangle-a {
+  width: 30px;
+  height: 150px;
+  bottom: -100px;
+  left: 180px;
+  top: 99px;
+  background-color: #d4ff00;
+  border-bottom: 0;
+  position: absolute;
+  float: left;
+}
+
+/* B */
+.half-circle-b {
+  position: absolute;
+  left: 100px;
+  top: 115px;
+  transform: rotate(-835deg);
+  animation-name: rotate;
+  animation-duration: .9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  width: 50%;
+  transform: rotate(180deg) scaleX(-1);
+}
+
+.rectangle-b {
+  width: 30px;
+  height: 220px;
+  bottom: -100px;
+  left: 55px;
+  top: 29px;
+  background-color: #d4ff00;
+  border-bottom: 0;
+  position: absolute;
+  float: left;
+}
+
+/* C */
+.half-circle-c {
+  position: absolute;
+  left: 43px;
+  top: 85px;
+  transform: rotate(-835deg);
+  animation-name: rotateC;
+  animation-duration: .9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  width: 60%;
+  transform: rotate(-270deg) scaleX(-1);
+}
+
+/* D */
+.half-circle-d {
+  position: absolute;
+  left: 50px;
+  top: 115px;
+  transform: rotate(-835deg);
+  animation-name: rotate;
+  animation-duration: .9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  width: 50%;
+  transform: rotate(180deg) scaleX(-1);
+}
+
+.rectangle-d {
+  width: 30px;
+  height: 220px;
+  bottom: -100px;
+  left: 200px;
+  top: 29px;
+  background-color: #d4ff00;
+  border-bottom: 0;
+  position: absolute;
+  float: left;
+}
+
+/* E */
+.half-circle-e {
+  position: absolute;
+  left: 55px;
+  top: 65px;
+  transform: rotate(-835deg);
+  animation-name: rotateE;
+  animation-duration: .9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  width: 60%;
+  transform: rotate(-270deg) scaleX(-1);
+}
+
+.rectangle-e {
+  width: 20px;
+  height: 75px;
+  bottom: -85px;
+  top: 119px;
+  left: 175px;
+  background-color: #d4ff00;
+  border-bottom: 0;
+  position: absolute;
+  float: left;
+  transform: rotate(90deg) scaleX(-1);
+}
+
+/* F */
+.half-circle-f {
+  position: absolute;
+  left: 49px;
+  top: 57px;
+  transform: rotate(-835deg);
+  animation-name: rotateF;
+  animation-duration: .9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  width: 35%;
+  transform: rotate(180deg) scaleX(-1);
+}
+
+.rectangle-f {
+  width: 30px;
+  height: 220px;
+  bottom: -100px;
+  left: 50px;
+  top: 100px;
+  background-color: #d4ff00;
+  border-bottom: 0;
+  position: absolute;
+  float: left;
+}
+
+.rectangle-f2 {
+  width: 20px;
+    height: 50px;
+    bottom: -101px;
+    top: 135px;
+    left: 90px;
+    background-color: #d4ff00;
+    border-bottom: 0;
+    position: absolute;
+    float: left;
+    transform: rotate(90deg) scaleX(-1);
+  }
+
+/* G */
+.half-circle-g {
+  position: absolute;
+  left: 50px;
+  top: -13px;
+  transform: rotate(-835deg);
+  animation-name: rotate;
+  animation-duration: .9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  width: 50%;
+  transform: rotate(180deg) scaleX(-1);
+}
+
+.half-circle-g2 {
+  position: absolute;
+    /* left: -17px; */
+    left: 130px;
+    top: 152px;
+    transform: rotate(-835deg);
+    /* animation-name: rotateG; */
+    animation-duration: .9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    width: 35%;
+    transform: rotate(1deg) scaleX(-1);
+
+}
+
+.rectangle-g {
+  width: 30px;
+  height: 180px;
+  bottom: -100px;
+  top: 0px;
+  left: 195px;
+  background-color: #d4ff00;
+  border-bottom: 0;
+  position: absolute;
+  float: left;
+}
+
+/* H */
+.half-circle-h {
+  position: absolute;
+  left: 63px;
+  top: 70px;
+  transform: rotate(-835deg);
+  animation-name: rotateH;
+  animation-duration: .9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  width: 60%;
+  transform: rotate(180deg) scaleX(-1);
+}
+
+.rectangle-h {
+  width: 30px;
+  height: 220px;
+  bottom: -100px;
+  left: 20px;
+  top: 30px;
+  background-color: #d4ff00;
+  border-bottom: 0;
+  position: absolute;
+  float: left;
+}
+
+/* I */
+.half-circle-i {
+  position: absolute;
+    /* left: -17px; */
+    left: 85px;
+    top: 38px;
+    transform: rotate(-835deg);
+    animation-name: rotateG;
+    animation-duration: .9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    width: 40%;
+    transform: rotate(-40deg) scaleX(-1);
+}
+
+.rectangle-i {
+  width: 30px;
+height: 100px;
+bottom: -100px;
+left: 111px;
+top: 150px;
+background-color: #d4ff00;
+border-bottom: 0;
+position: absolute;
+float: left;
+
+}
+
+/* J */
+.half-circle-j {
+  position: absolute;
+  /* left: -17px; */
+  left: 115px;
+  top: 130px;
+  transform: rotate(-835deg);
+  animation-name: rotateG;
+  animation-duration: .9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  width: 40%;
+  transform: rotate(-40deg) scaleX(-1);
+}
+
+.rectangle-j {
+  width: 30px;
+  height: 180px;
+  bottom: -100px;
+  top: 0px;
+  left: 195px;
+  background-color: #d4ff00;
+  border-bottom: 0;
+  position: absolute;
+  float: left;
+}
+
+/* K */
+.half-circle-k {
+  position: absolute;
+  left: 113px;
+  top: 110px;
+  transform: rotate(-835deg);
+  animation-name: rotateK;
+  animation-duration: .9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  width: 50%;
+  transform: rotate(-670deg) scaleX(-1);
+}
+
+.rectangle-k {
+  width: 30px;
+  height: 220px;
+  bottom: -100px;
+  left: 80px;
+  top: 30px;
+  background-color: #d4ff00;
+  border-bottom: 0;
+  position: absolute;
+  float: left;
+}
+
+/* L */
+.half-circle-l {
+  position: absolute;
+  left: 97px;
+  top: 178px;
+  width: 100px;
+  height: 200px;
+}
+
+.rectangle-l {
+  width: 30px;
+  height: 180px;
+  bottom: -100px;
+  top: 0px;
+  left: 195px;
+  background-color: #d4ff00;
+  border-bottom: 0;
+  position: absolute;
+  float: left;
+}
+
+/* M */
+.half-circle-m {
+  position: absolute;
+    /* left: -17px; */
+    left: 115px;
+    top: 48px;
+    transform: rotate(-30deg);
+    animation-name: rotateM;
+    animation-duration: .9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    width: 40%;
+}
+
+
+
+.half-circle-m2 {
+  position: absolute;
+    /* left: -17px; */
+    left: 45px;
+    top: 48px;
+    transform: rotate(-835deg);
+    animation-name: rotateM;
+    animation-duration: .9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    width: 40%;
+    transform: rotate(180deg) scaleX(-1);
+}
+
+
+.rectangle-m {
+  width: 30px;
+  height: 195px;
+  bottom: -100px;
+  left: 1px;
+  top: 105px;
+  background-color: #d4ff00;
+  border-bottom: 0;
+  position: absolute;
+  float: left;
+}
+
+/* N */
+.half-circle-n {
+  left: 45px;
+  top: 48px;
+  transform: rotate(-835deg);
+  animation-name: rotateM;
+  animation-duration: .9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  width: 40%;
+  transform: rotate(180deg) scaleX(-1);
+  position: absolute;
+}
+
+.rectangle-n {
+  width: 30px;
+  height: 195px;
+  bottom: -100px;
+  left: 1px;
+  top: 105px;
+  background-color: #d4ff00;
+  border-bottom: 0;
+  position: absolute;
+  float: left;
+}
+
+/* O */
+.half-circle-o {
+  position: absolute;
+  left: 63px;
+  top: 70px;
+  transform: rotate(-835deg);
+  animation-name: rotate;
+  animation-duration: .9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  width: 60%;
+  transform: rotate(180deg) scaleX(-1);
+}
+
+
+/* P */
+.half-circle-p {
+  position: absolute;
+    left: 100px;
+    top: 35px;
+    transform: rotate(-835deg);
+    animation-name: rotate;
+    animation-duration: .9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    width: 50%;
+    transform: rotate(180deg) scaleX(-1);
+}
+
+.rectangle-p {
+  width: 30px;
+  height: 220px;
+  bottom: -100px;
+  left: 55px;
+  top: 29px;
+  background-color: #d4ff00;
+  border-bottom: 0;
+  position: absolute;
+  float: left;
+}
+
+/* Q */
+.half-circle-q {
+  position: absolute;
+    left: 20px;
+    top: 35px;
+    transform: rotate(-835deg);
+    animation-name: rotate;
+    animation-duration: .9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    width: 50%;
+    transform: rotate(180deg) scaleX(-1);
+}
+
+.rectangle-q {
+  width: 30px;
+    height: 220px;
+    bottom: -100px;
+    left: 175px;
+    top: 29px;
+    background-color: #d4ff00;
+    border-bottom: 0;
+    position: absolute;
+    float: left;
+}
+
+/* R */
+.half-circle-r {
+  position: absolute;
+    /* left: -17px; */
+    left: 45px;
+    top: 48px;
+    transform: rotate(-835deg);
+    animation-name: rotateM;
+    animation-duration: .9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    width: 40%;
+    transform: rotate(180deg) scaleX(-1);
+    position: absolute;
+}
+
+
+.rectangle-r {
+  width: 35px;
+  height: 195px;
+  bottom: -107px;
+  left: 40px;
+  top: 105px;
+  background-color: #d4ff00;
+  border-bottom: 0;
+  position: absolute;
+  float: left;
+}
+
+/* S */
+.half-circle-s {
+  position: absolute;
+left: 30px;
+top: 5px;
+transform: rotate(-835deg);
+animation-name: rotateS;
+animation-duration: .9s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+width: 60%;
+transform: rotate(-270deg) scaleX(-1);
+}
+
+.half-circle-s2 {
+  position: absolute;
+    left: 90px;
+    top: 105px;
+    transform: rotate(-835deg);
+    animation-name: rotateS2;
+    animation-duration: .9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    width: 60%;
+    transform: rotate(270deg) scaleX(-1);
+}
+
+/* T */
+.half-circle-t {
+  position: absolute;
+    /* left: -17px; */
+    left: 51px;
+    top: 138px;
+    transform: rotate(-835deg);
+    animation-name: rotateG;
+    animation-duration: .9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    width: 40%;
+    transform: rotate(0deg) scaleX(-1);
+  }
+
+.rectangle-t {
+  width: 30px;
+    height: 180px;
+    bottom: -100px;
+    left: 50px;
+    top: 0px;
+    background-color: #d4ff00;
+    border-bottom: 0;
+    position: absolute;
+    float: left;
+}
+
+.rectangle-t2 {
+  width: 15px;
+    height: 50px;
+    bottom: -101px;
+    top: 85px;
+    left: 118px;
+    background-color: #d4ff00;
+    border-bottom: 0;
+    position: absolute;
+    float: left;
+    transform: rotate(90deg) scaleX(-1);
+}
+
+/* U */
+.half-circle-u {
+  position: absolute;
+    /* left: -17px; */
+    left: 45px;
+    top: 128px;
+    transform: rotate(-835deg);
+    animation-name: rotateU;
+    animation-duration: .9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    width: 60%;
+    transform: rotate(360deg) scaleX(-1);
+  }
+
+/* V */
+.half-circle-v {
+  position: absolute;
+    /* left: -17px; */
+    left: 35px;
+    top: 98px;
+    transform: rotate(-835deg);
+    animation-name: rotateV;
+    animation-duration: .9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    width: 60%;
+    transform: rotate(40deg) scaleX(-1);
+}
+
+.half-circle-v2 {
+  position: absolute;
+    /* left: -17px; */
+    left: 75px;
+    top: 98px;
+    transform: rotate(-835deg);
+    animation-name: rotateV2;
+    animation-duration: .9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    width: 60%;
+    transform: rotate(-40deg) scaleX(-1);
+}
+
+/* W */
+.half-circle-w {
+  position: absolute;
+  /* left: -17px; */
+  left: 115px;
+  top: 138px;
+  transform: rotate(-835deg);
+  animation-name: rotateG;
+  animation-duration: .9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  width: 40%;
+  transform: rotate(-40deg) scaleX(-1);
+}
+
+.half-circle-w2 {
+  position: absolute;
+  /* left: -17px; */
+  left: 115px;
+  top: 138px;
+  transform: rotate(-835deg);
+  animation-name: rotateG;
+  animation-duration: .9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  width: 40%;
+  transform: rotate(-40deg) scaleX(-1);
+}
+
+.half-circle-w3 {
+  position: absolute;
+  /* left: -17px; */
+  left: 115px;
+  top: 138px;
+  transform: rotate(-835deg);
+  animation-name: rotateG;
+  animation-duration: .9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  width: 40%;
+  transform: rotate(-40deg) scaleX(-1);
+}
+
+/* X */
+.half-circle-x {
+  position: absolute;
+left: 30px;
+top: 5px;
+transform: rotate(-835deg);
+animation-name: rotateS;
+animation-duration: .9s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+width: 60%;
+transform: rotate(-270deg) scaleX(-1);
+
+}
+
+.half-circle-x2 {
+  position: absolute;
+    left: 90px;
+    top: 105px;
+    transform: rotate(-835deg);
+    animation-name: rotateS2;
+    animation-duration: .9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    width: 60%;
+    transform: rotate(270deg) scaleX(-1);
+}
+
+/* Y */
+.rectangle-y {
+  width: 30px;
+  height: 180px;
+  bottom: -100px;
+  top: 0px;
+  left: 195px;
+  background-color: #d4ff00;
+  border-bottom: 0;
+  position: absolute;
+  float: left;
+}
+
+.half-circle-y {
+  position: absolute;
+  left: 50px;
+  top: -13px;
+  transform: rotate(-835deg);
+  animation-name: rotate;
+  animation-duration: .9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  width: 50%;
+  transform: rotate(180deg) scaleX(-1);
+}
+
+
+.half-circle-y2 {
+  position: absolute;
+  /* left: -17px; */
+  left: 115px;
+  top: 138px;
+  transform: rotate(-835deg);
+  animation-name: rotateG;
+  animation-duration: .9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  width: 40%;
+  transform: rotate(-40deg) scaleX(-1);
+}
+
+/* Z */
+.half-circle-z {
+  position: absolute;
+left: 30px;
+top: 5px;
+transform: rotate(-835deg);
+animation-name: rotateS;
+animation-duration: .9s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+width: 60%;
+transform: rotate(-270deg) scaleX(-1);
+}
+
+.half-circle-z2 {
+  position: absolute;
+    left: 90px;
+    top: 105px;
+    transform: rotate(-835deg);
+    animation-name: rotateS2;
+    animation-duration: .9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    width: 60%;
+    transform: rotate(270deg) scaleX(-1);
+}

@@ -1,0 +1,186 @@
+:root {
+  --fontHeight: 200px;
+  --color: white;
+  --negativeColor: black;
+  --baseKern: 20px;
+  --stemWidth: 20px;
+}
+
+.fontBox {
+  background: var(--negativeColor);
+  height:var(--fontHeight);
+  padding:50px;
+  overflow:hidden;
+}
+
+a {
+ color:red; 
+}
+
+/* define some letter parts */
+
+.stem {
+  background: var(--color);
+  width:var(--stemWidth); 
+  height: var(--fontHeight);
+}
+
+.leftLeaning {
+  transform:rotate(-20deg) 
+}
+
+.rightLeaning {
+  transform:rotate(20deg) 
+}
+
+.crossBar {
+  background: var(--color);  
+  height: var(--stemWidth); 
+}
+
+.counter {
+  transform-origin: center;
+  background: var(--negativeColor);    
+}
+
+
+/* setup so our letters to have equal spacing */
+.rootLetter {
+  float:left;
+  position:relative; 
+  padding-right:var(--baseKern); 
+}
+
+.letter {
+  height:calc(var(--fontHeight) + 20px);
+}
+
+.letter * {
+  position:absolute;
+  /*border: 1px solid yellow;*/
+}
+
+/* positioning parts of letters */
+
+/* A */
+.a {
+  width:170px;
+}
+.a>.one {
+  left:40px;  
+}
+.a>.two {
+  left:110px;  
+}
+.a>.three {
+  left: 40px;
+  top: 110px;
+  width: 80px;
+}
+.a>.four {
+  top:-8px; 
+  width:170px;
+}
+.a>.five {
+  bottom:14px;
+  width:170px;
+}
+.a>.counter {
+  height: 20px;
+  background: var(--negativeColor);
+}
+
+/* B */
+
+.b {
+  width:120px;
+}
+
+.b>.top {
+  height: 92px;
+  width: 101px;
+  left: 0px;
+  top: 12px;
+  background: var(--color);
+
+  border-radius: 0px 60px 60px 0px;
+}
+
+.b>.two {
+  height: 99px;
+  width: 116px;
+  top: 87px;
+  left: 0px;
+  background: var(--color);
+
+  border-radius: 0px 120px 120px 0px;
+}
+
+.b>.counter.three {
+  height: 52px;
+  width: 61px;
+  left: 20px;
+  top: 32px;
+  border-radius: 0px 60px 60px 0px;
+}
+
+.b>.counter.four {
+  height: 63px;
+  width: 76px;
+  left: 20px;
+  top: 105px;
+  border-radius: 0px 60px 60px 0px;
+}
+
+/* C */
+
+.c {
+  width: 130px;
+}
+
+.c>.circle {
+  width: 130px;
+  height: 180px;
+  top: 10px;
+  border-radius: 100px;
+  background: radial-gradient(#fff 10% ,#fff 60%); 
+}
+
+.c>.counter.two {
+  width: 90px;
+  height: 140px;
+  border-radius: 100px;  
+  top: 30px;
+  left: 20px;
+}
+
+.c>.counter.three {
+  height: 80px;
+  background: var(--negativeColor);
+  width: 70px;
+  left: 65px;
+  top: 60px;
+}
+
+/* change our stroke width when a letter is hovered */
+
+
+.letter * {
+  transition: all 200ms ease;
+}
+
+.a:hover {
+  --stemWidth:8px; 
+}
+
+.b:hover .counter {
+  transform: scale(.05);
+}
+
+.c:hover .counter.two {
+    transform: scale(.05);
+}
+
+.c:hover .counter.three {
+    transform: scaleY(.05);
+}

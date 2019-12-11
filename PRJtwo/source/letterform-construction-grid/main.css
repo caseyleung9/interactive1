@@ -1,0 +1,27 @@
+body {
+	
+}
+
+.letter {
+	position: relative;
+	margin: 10px;
+
+	display: grid;
+	float: left;
+
+	grid-template-columns: 40px 40px 40px;
+	grid-template-rows: 40px 40px 40px 40px 40px;
+	grid-gap: 10px 10px;
+}
+
+
+/* letter pieces */
+
+.letter div {
+	border-radius: 20px;
+	background: red; 
+}
+
+.letter div.empty {
+	background: transparent;
+}
